@@ -1,0 +1,41 @@
+
+// let tab1=[5,2,3,1,55,67,16,11];
+let tab =[
+    [3,2],
+    [7,5],
+];
+function exercice1(tab){
+    let somme=0;
+    for(let i=0; i<taille(tab);i++){ 
+        for(let j=0;j<taille(tab);j++){
+            somme=tab[i] + tab[i];    
+    }
+
+    
+    }
+    return somme;
+    tabAjout(tab[0],somme)
+    
+}
+afficher(tab);
+afficher(exercice1(tab));
+
+// function tabMinimum(tab){
+//     let result=0;
+//     for(let i=1; i<taille(tab);i++){
+//         if (tab[result]> tab[i]){
+//             result=i;
+//         }
+//     }
+//     return result;
+// }
+// afficher(tab1)
+// afficher (tabMinimum(tab1));
+
+// function trierTab (tab){
+//     let result=[];
+//     for(let i=0; i<taille(tab); i++){
+//         tabAjout(result[min])
+//     }
+
+// }
